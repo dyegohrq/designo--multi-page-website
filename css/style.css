@@ -725,3 +725,9 @@ body {
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .header .hero-phone {
+        transform: translate(23%, 0%);
+    }
+}
