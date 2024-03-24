@@ -667,4 +667,61 @@ body {
     .lets-talk .text-lets p {
         font-size: 11px;
     }
+
+    .footer {
+        padding: 175px 40px 3px 40px;
+    }
+
+    .footer .nav-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+        padding-bottom: 20px;
+    }
+
+    .footer .nav-bottom .logo {
+        width: 100%;
+        border-bottom: 1px solid var(--dark-grey);
+        padding-bottom: 10px;
+    }
+
+    .footer .nav-bottom .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .footer .nav-bottom .nav-link:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .footer .footer-content .address {
+        flex-direction: column;
+    }
+
+    .footer .footer-content .address .cental-office {
+        text-align: center;
+    }
+
+    .footer .footer-content .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
 }
