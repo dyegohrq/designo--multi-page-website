@@ -650,4 +650,21 @@ body {
         width: 329px;
         margin: auto;
     }
+
+    .lets-talk {
+        margin: 0px 40px;
+    }
+
+    .lets-talk .text-lets {
+        width: 100%;
+    }
+
+    .lets-talk .text-lets h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .lets-talk .text-lets p {
+        font-size: 11px;
+    }
 }
