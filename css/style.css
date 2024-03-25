@@ -25,6 +25,7 @@ html {
 .btn {
     width: 130px;
     height: 50px;
+    margin: auto;
     border-radius: 8px;
     border: none;
     text-transform: uppercase;
@@ -608,7 +609,7 @@ body {
     }
 
     .header .circle-hero {
-        transform: translate(18%, 0%);
+        transform: translate(19%, 0%);
     }
 
     .header .txt-header {
@@ -618,14 +619,17 @@ body {
     .header .txt-header h1 {
         font-size: 1.8em;
         line-height: 36px;
+        width: 300px;
+        margin: auto;
     }
 
     .header .txt-header p {
         width: 346px;
+        margin: 25px auto;
     }
 
     .header .hero-phone {
-        transform: translate(20%, 0%);
+        transform: translate(17%, 0%);
     }
 
     .design-container .design {
@@ -726,8 +730,8 @@ body {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .header .hero-phone {
-        transform: translate(23%, 0%);
+        transform: translate(22%, 0%);
     }
 }
