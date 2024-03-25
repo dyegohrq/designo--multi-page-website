@@ -1,0 +1,282 @@
+:root {
+    --peach: #e7816b;
+    --black: #1d1c1e;
+    --white: #fff;
+    --light-peach: #ffad9b;
+    --dark-grey: #333136;
+    --light-grey: #f1f3f5;
+
+    --font: "Jost", sans-serif;
+}
+
+img {
+    object-fit: cover;
+}
+
+.header {
+    text-align: center;
+}
+
+.header .circle-hero {
+    background: url(../assets/app-design/desktop/bg-pattern-intro-app.svg) no-repeat center / cover ;
+    width: 80%;
+    height: 100%;
+}
+
+.header .txt-header {
+    margin: auto;
+    width: 404px;
+}
+
+.card-pg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    padding: 60px 80px;
+    gap: 100px;
+}
+
+.card-pg .card {
+    width: 500px;
+}
+
+.card-pg .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-pg .img {
+    width: 100%;
+    height: 457px;
+}
+
+
+.card-pg .card .txt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--peach);
+    text-align: center;
+    background-color: var(--light-grey);
+    padding: 35px;
+    border-radius:0 0 10px 10px;
+    cursor: pointer;
+    transition: all .8s ease-in-out;
+}
+
+.card-pg .card .txt:hover {
+    background: var(--light-peach);
+    color: var(--white);
+}
+
+.card-pg .card .txt h3 {
+    text-transform: uppercase;
+}
+
+.card-pg .card .txt p {
+    width: 283px;
+    margin: auto;
+}
+
+.design-container {
+    height: 608px;
+    grid-template-columns: 1fr;
+}
+
+.design-container .right {
+    display: flex;
+    gap: 20px;
+}
+
+.design-container .design {
+    width: 100%;
+}
+
+@media screen and (max-width: 1900px) {
+
+    .header .circle-hero {
+        width: 77%;
+        height: 100%;
+    }
+
+    .card-pg {
+        gap: 32px;
+    }
+
+    .card-pg .img {
+        height: 402px;
+    }
+
+    .card-pg .card {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .card-pg {
+        gap: 20px;
+    }
+
+    .card-pg .img {
+        height: 361px;
+    }
+
+    .card-pg .card {
+        width: 395px;
+    }
+
+    .design-container {
+        height: 461px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .card-pg .card {
+        width: 350px;
+    }
+
+    .card-pg .img {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .card-pg .card {
+        width: 300px;
+    }
+
+    .card-pg .img {
+        height: 274px;
+    }
+
+    .card-pg .card .txt p {
+        width: 100%;
+        margin: auto;
+        font-size: .9em;
+    }
+
+    .design-container {
+        height: 421px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .card-pg {
+        padding: 60px 40px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    .header {
+        height: 306px;
+    }
+
+    .card-pg {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .card-pg .card {
+        display: flex;
+        width: 100%;
+        height: 470px;
+    }
+
+    .card-pg .img {
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-pg .card img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0px 0 10px;
+    }
+    
+    .card-pg .card .txt {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .card-pg .card .txt p {
+        margin: 0;
+        width: 239px;
+    }
+
+    .design-container .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lets-talk {
+        margin: 160px 40px 0px 40px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .card-pg .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 777px;
+    }
+
+    .card-pg .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-pg .card img {
+        border-radius: 10px 10px 0 0px;
+    }
+
+    .card-pg .card .txt {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .card-pg .card {
+        height: 657px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card-pg .card {
+        height: 579px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .header .circle-hero {
+        width: 100%;
+        height: 100%;
+        transform: translate(-5%);
+    }
+
+    .card-pg .card {
+        height: 447px;
+    }
+
+    .lets-talk {
+        margin: 60px 40px 0px 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .header .txt-header {
+        margin: auto;
+        width: 100%;
+    }
+
+    
+}

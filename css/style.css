@@ -236,6 +236,22 @@ body {
     z-index: 1;
 }
 
+.about-us .img-passionate, .img-resourceful, .img-friendly {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}  
+
+.about-us .img-passionate {
+    background: url(../assets/shared/desktop/bg-pattern-small-circle.svg) no-repeat center / contain;
+}
+.about-us  .img-resourceful {
+    background: url(../assets/contact/desktop/bg-pattern-hero-desktop.svg) no-repeat center / contain;
+}
+.about-us .img-friendly {
+    background: url(../assets/home/desktop/bg-pattern-hero-home.svg) no-repeat center / contain;
+}
+
 .about-us .text h3 {
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -489,6 +505,16 @@ body {
         transform: translate(-7%, 0%);
     }
 
+    .design-container .web-design {
+        background: url(../assets/home/tablet/image-web-design.jpg)no-repeat center / cover;
+    }
+    .design-container .app-design {
+        background: url(../assets/home/tablet/image-app-design.jpg)no-repeat center / cover;
+    }
+    .design-container .graphic-design {
+        background: url(../assets/home/tablet/image-graphic-design.jpg)no-repeat center / cover;
+    }
+
     .footer {
         background: var(--black);
         padding: 175px 40px 60px 40px;
@@ -629,11 +655,21 @@ body {
     }
 
     .header .hero-phone {
-        transform: translate(17%, 0%);
+        transform: translate(20%, 0%);
     }
 
     .design-container .design {
         height: 220px;
+    }
+
+    .design-container .web-design {
+        background: url(../assets/home/mobile/image-web-design.jpg)no-repeat center / cover;
+    }
+    .design-container .app-design {
+        background: url(../assets/home/mobile/image-app-design.jpg)no-repeat center / cover;
+    }
+    .design-container .graphic-design {
+        background: url(../assets/home/mobile/image-graphic-design.jpg)no-repeat center / cover;
     }
 
     .about-us {

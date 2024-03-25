@@ -5,34 +5,186 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pgs.css">
+
   
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
+  <nav class="nav">
+    <div class="logo">
+      <a href="">
+        <img src="assets/shared/desktop/logo-dark.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navagation">
+      <button class="burger" onclick="openMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <div class="links">
+        <a href="about.html" class="link-items">Our Company</a>
+        <a href="locations.html" class="link-items">Locations</a>
+        <a href="contact.html" class="link-items">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="circle-hero"></div>
+    <div class="txt-header">
+      <h1>Web design</h1>
+      <p>We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
+    </div>
+  </header>
+  <main>
+      <div class="card-pg">
+        <div class="card express">
+          <div class="img img-express">
+            <img src="assets/web-design/desktop/image-express.jpg" alt="">
+          </div>
+          <div class="txt txt-express">
+            <h3>Express</h3>
+            <p>A multi-carrier shipping website for ecommerce businesses</p>
+          </d>
+        </div>
+      </div>
 
-  Web design
-  We build websites that serve as powerful marketing tools and bring memorable brand experiences.
+      <div class="card transfer">
+        <div class="img img-transfer">
+          <img src="assets/web-design/desktop/image-transfer.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Transfer</h3>
+          <p>Site for low-cost money transfers and sending money within seconds</p>
+        </div>
+      </div>
+
+      <div class="card photon">
+        <div class="img img-photon">
+          <img src="assets/web-design/desktop/image-photon.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Photon</h3>
+          <p>A state-of-the-art music player with high-resolution audio and DSP effects</p>
+        </div>
+      </div>
+
+      <div class="card builder">
+        <div class="img img-builder">
+          <img src="assets/web-design/desktop/image-builder.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Builder</h3>
+          <p>Connects users with local contractors based on their location</p>
+        </div>
+      </div>
+
+      <div class="card blogr">
+        <div class="img img-blogr">
+          <img src="assets/web-design/desktop/image-blogr.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Blogr</h3>
+          <p>Blogr is a platform for creating an online blog or publication</p>
+        </div>
+      </div>
+
+      <div class="card camp">
+        <div class="img img-camp">
+          <img src="assets/web-design/desktop/image-camp.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Camp</h3>
+          <p>Get expert training in coding, data, design, and digital marketing</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="design-container">
+      <div class="right">
+        <a href="app-design.html" class="design app-design">
+          <div class="filter"></div>
+          <p>App Design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
+        <a href="graphic-design.html" class="design graphic-design">
+          <div class="filter"></div>
+          <p>Graphic design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="lets-talk">
+      <div class="circle-lets-talk"></div>
+      <div class="text-lets">
+        <h2>Let’s talk about your project</h2>
+        <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      </div>
+      <div class="button">
+        <button class="btn btn-on-dark">Get in touch</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="nav-bottom">
+      <div class="logo">
+        <a href=""><img src="assets/shared/desktop/logo-light.png" alt=""></a>
+      </div>
+      <div class="nav-items">
+        <a href="" class="nav-link">Our company</a>
+        <a href="" class="nav-link">Locations</a>
+        <a href="" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    
+    
+    <div class="footer-content">
+      <div class="address">
+        <div class="cental-office">
+          <span>Designo Central Office</span>
+          <small>3886 Wellington Street</small>
+          <small>Toronto, Ontario M9C 3J5</small>
+        </div>
+      
+        <div class="cental-office">
+          <span>Contact Us (Central Office)</span>
+          <small>P : +1 253-863-8967</small>
+          <small>M : contact@designo.co</small>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a></i>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/24690ddc1f.js" crossorigin="anonymous"></script>
+  <script src="script/js.js"></script>
+  <!--
+
   
-  Express
-  A multi-carrier shipping website for ecommerce businesses
-
-  Transfer
-  Site for low-cost money transfers and sending money within seconds
-
-  Photon
-  A state-of-the-art music player with high-resolution audio and DSP effects
-
-  Builder
-  Connects users with local contractors based on their location
-
-  Blogr
-  Blogr is a platform for creating an online blog or publication
-
-  Camp
-  Get expert training in coding, data, design, and digital marketing
+  
+ 
 
   App Design
   View Projects
@@ -55,6 +207,6 @@
   
   Contact Us (Central Office)
   P : +1 253-863-8967
-  M : contact@designo.co
+  M : contact@designo.co -->
 </body>
 </html>
