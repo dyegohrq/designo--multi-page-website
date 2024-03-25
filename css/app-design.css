@@ -1,0 +1,8 @@
+.card-pg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    padding: 60px 80px;
+    gap: 100px;
+}

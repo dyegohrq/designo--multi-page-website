@@ -5,31 +5,177 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pgs.css">
+  <link rel="stylesheet" href="css/app-design.css">
   
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
 
-  App design
-  Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.
+  <nav class="nav">
+    <div class="logo">
+      <a href="">
+        <img src="assets/shared/desktop/logo-dark.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navagation">
+      <button class="burger" onclick="openMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <div class="links">
+        <a href="about.html" class="link-items">Our Company</a>
+        <a href="locations.html" class="link-items">Locations</a>
+        <a href="contact.html" class="link-items">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="circle-hero"></div>
+    <div class="txt-header">
+      <h1>App design</h1>
+      <p>Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.</p>
+    </div>
+  </header>
+  <main>
+      <div class="card-pg">
+        <div class="card airfilter">
+          <div class="img img-airfilter">
+            <img src="assets/app-design/desktop/image-airfilter.jpg" alt="">
+          </div>
+          <div class="txt txt-express">
+            <h3>Airfilter</h3>
+            <p>Solving the problem of poor indoor air quality by filtering the air</p>
+          </d>
+        </div>
+      </div>
 
-  Airfilter
-  Solving the problem of poor indoor air quality by filtering the air
+      <div class="card eyecam">
+        <div class="img img-eyecam">
+          <img src="assets/app-design/desktop/image-eyecam.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>eyecam</h3>
+          <p>Product that lets you edit your favorite photos and videos at any time</p>
+        </div>
+      </div>
 
-  Eyecam
-  Product that lets you edit your favorite photos and videos at any time
+      <div class="card faceit">
+        <div class="img img-faceit">
+          <img src="assets/app-design/desktop/image-faceit.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>faceit</h3>
+          <p>Get to meet your favorite internet superstar with the faceit app</p>
+        </div>
+      </div>
 
-  Faceit
-  Get to meet your favorite internet superstar with the faceit app
+      <div class="card todo">
+        <div class="img img-todo">
+          <img src="assets/app-design/desktop/image-todo.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>todo</h3>
+          <p>A todo app that features cloud sync with light and dark mode</p>
+        </div>
+      </div>
 
-  Todo
-  A todo app that features cloud sync with light and dark mode
+      <div class="card loopstudios">
+        <div class="img img-loopstudios">
+          <img src="assets/app-design/desktop/image-loopstudios.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>loopstudios</h3>
+          <p>A VR experience app made for Loopstudios</p>
+        </div>
+      </div>
+    </div>
 
-  Loopstudios
-  A VR experience app made for Loopstudios
+    <div class="design-container">
+      <div class="right">
+        <a href="web-design.html" class="design web-design">
+          <div class="filter"></div>
+          <p>Web design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
+
+        
+        <a href="graphic-design.html" class="design graphic-design">
+          <div class="filter"></div>
+          <p>Graphic design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="lets-talk">
+      <div class="circle-lets-talk"></div>
+      <div class="text-lets">
+        <h2>Let’s talk about your project</h2>
+        <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      </div>
+      <div class="button">
+        <button class="btn btn-on-dark">Get in touch</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="nav-bottom">
+      <div class="logo">
+        <a href=""><img src="assets/shared/desktop/logo-light.png" alt=""></a>
+      </div>
+      <div class="nav-items">
+        <a href="" class="nav-link">Our company</a>
+        <a href="" class="nav-link">Locations</a>
+        <a href="" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    
+    
+    <div class="footer-content">
+      <div class="address">
+        <div class="cental-office">
+          <span>Designo Central Office</span>
+          <small>3886 Wellington Street</small>
+          <small>Toronto, Ontario M9C 3J5</small>
+        </div>
+      
+        <div class="cental-office">
+          <span>Contact Us (Central Office)</span>
+          <small>P : +1 253-863-8967</small>
+          <small>M : contact@designo.co</small>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a></i>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/24690ddc1f.js" crossorigin="anonymous"></script>
+  <script src="script/js.js"></script>
+
+  <!--  
 
   Web Design
   View Projects
@@ -52,6 +198,6 @@
 
   Contact Us (Central Office)
   P : +1 253-863-8967
-  M : contact@designo.co
+  M : contact@designo.co -->
 </body>
 </html>
