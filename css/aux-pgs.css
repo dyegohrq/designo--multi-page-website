@@ -253,4 +253,19 @@
     .location-container {
         padding: 60px 40px;
     }
+
+    .real-deal{
+        margin: 0;
+    }
+
+    .real-deal .img-hero-real-deal {
+        background: url(../assets/about/mobile/image-real-deal.jpg) no-repeat center / cover;
+        border-radius: 0;
+        width: 100%;
+        height: 40%;
+    }
+
+    .real-deal .txt-real-deal {
+        padding: 25px;
+    }
 }
