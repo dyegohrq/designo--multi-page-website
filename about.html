@@ -5,62 +5,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pgs.css">
+  <link rel="stylesheet" href="css/app-design.css">
+  <link rel="stylesheet" href="css/aux-pgs.css">
   
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
+  <nav class="nav">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/shared/desktop/logo-dark.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navagation">
+      <button class="burger" onclick="openMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <div class="links">
+        <a href="about.html" class="link-items">Our Company</a>
+        <a href="locations.html" class="link-items">Locations</a>
+        <a href="contact.html" class="link-items">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-  About us
-  Founded in 2010, we are a creative agency that produces lasting results for our clients. 
-  We’ve partnered with many startups, corporations, and nonprofits alike to craft designs 
-  that make real impact. We’re always looking forward to creating brands, products, and 
-  digital experiences that connect with our clients' audiences.
+  <main>
+    <div class="about-us">
+      <div class="img-about-hero"></div>
+      <div class="cicler-hero"></div>
+      <div class="txt-about-us">
+        <h2>About Us</h2>
+        <p>
+          Founded in 2010, we are a creative agency that produces lasting results for our clients.
+          We’ve partnered with many startups, corporations, and nonprofits alike to craft designs
+          that make real impact. We’re always looking forward to creating brands, products, and
+          digital experiences that connect with our clients' audiences.
+        </p>
+      </div>
+    </div>
+    <div class="circle-hero-bottom"></div>
 
-  World-class talent
-  We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully 
-  crafted from concept to launch, ensuring success in its given market. We are constantly updating 
-  our skills in a myriad of platforms.
+    <div class="World-class">
+      <div class="img-world-class"></div>
+      <div class="txt-world-class">
+        <h2>World-class talent</h2>
+        <p>
+          We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully
+          crafted from concept to launch, ensuring success in its given market. We are constantly updating
+          our skills in a myriad of platforms.
+        </p>
+        <p>
+          Our team is multi-disciplinary and we are not merely interested in form — content and meaning
+          are just as important. We give great importance to craftsmanship, service, and prompt delivery.
+          Clients have always been impressed with our high-quality outcomes that encapsulates their
+          brand’s story and mission.
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="location-container">
+        <div class="canadar location">
+          <div class="img-canada">
+            <img src="assets/shared/desktop/illustration-canada.svg" alt="">
+          </div>
+          <h3>Canada</h3>
+          <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
 
-  Our team is multi-disciplinary and we are not merely interested in form — content and meaning 
-  are just as important. We give great importance to craftsmanship, service, and prompt delivery. 
-  Clients have always been impressed with our high-quality outcomes that encapsulates their 
-  brand’s story and mission.
+        <div class="australia location">
+          <div class="img-australia">
+            <img src="assets/shared/desktop/illustration-australia.svg" alt="">
+          </div>
+            <h3>Australia</h3>
+            <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
+        <div class="united-kingdom location">
+          <div class="img-united-kingdom">
+            <img src="assets/shared/desktop/illustration-united-kingdom.svg" alt="">
+          </div>
+            <h3>United Kingdom</h3>
+            <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="real-deal">
+        <div class="img-hero-real-deal"></div>
+        <div class="txt-real-deal">
+          <h2>The real deal</h2>
+          <p>
+            As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
+            Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every
+            opportunity. We make design and technology more accessible and give you tools to measure success.
+          </p>
+          <p>
+            We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies,
+            we inspire audiences to take action and drive real results.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lets-talk">
+      <div class="circle-lets-talk"></div>
+      <div class="text-lets">
+        <h2>Let’s talk about your project</h2>
+        <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      </div>
+      <div class="button">
+        <button class="btn btn-on-dark">Get in touch</button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <nav class="nav-bottom">
+      <div class="logo">
+        <a href=""><img src="assets/shared/desktop/logo-light.png" alt=""></a>
+      </div>
+      <div class="nav-items">
+        <a href="" class="nav-link">Our company</a>
+        <a href="" class="nav-link">Locations</a>
+        <a href="" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    
+    
+    <div class="footer-content">
+      <div class="address">
+        <div class="cental-office">
+          <span>Designo Central Office</span>
+          <small>3886 Wellington Street</small>
+          <small>Toronto, Ontario M9C 3J5</small>
+        </div>
+      
+        <div class="cental-office">
+          <span>Contact Us (Central Office)</span>
+          <small>P : +1 253-863-8967</small>
+          <small>M : contact@designo.co</small>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a></i>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
 
-  The real deal
-  As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
-  Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every
-  opportunity. We make design and technology more accessible and give you tools to measure success.
-
-  We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, 
-  we inspire audiences to take action and drive real results.
-
-  Canada
-  See location
-
-  Australia
-  See location
-
-  United Kingdom
-  See location
-
-  Let’s talk about your project
-  Ready to take it to the next level? Contact us today and find out how our expertise can 
-  help your business grow.
-  Get in touch
-
-  Our company
-  Locations
-  Contact
-
-  Designo Central Office
-  3886 Wellington Street
-  Toronto, Ontario M9C 3J5
-
-  Contact Us (Central Office)
-  P : +1 253-863-8967
-  M : contact@designo.co
+  <script src="https://kit.fontawesome.com/24690ddc1f.js" crossorigin="anonymous"></script>
+  <script src="script/js.js"></script>
 </body>
 </html>

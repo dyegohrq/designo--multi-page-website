@@ -1,0 +1,119 @@
+:root {
+    --peach: #e7816b;
+    --black: #1d1c1e;
+    --white: #fff;
+    --light-peach: #ffad9b;
+    --dark-grey: #333136;
+    --light-grey: #f1f3f5;
+
+    --font: "Jost", sans-serif;
+}
+
+@media screen and (min-width: 1400px) {
+    .about-us {
+        background: var(--peach);
+        margin: 0 80px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 0;
+        height: 600px;
+    }
+
+    .about-us .cicler-hero {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../assets/about/desktop/bg-pattern-hero-about-desktop.svg) no-repeat bottom left;
+    }
+
+    .about-us .img-about-hero {
+        background: url(../assets/about/desktop/image-about-hero.jpg) no-repeat center / cover;
+        width: 50%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .txt-about-us {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: left;
+        padding: 80px;
+        color: var(--white);
+        gap: 20px;
+    }
+
+    .circle-hero-bottom {
+        position: absolute;
+        background: url(../assets/shared/desktop/bg-pattern-leaf.svg) no-repeat center / cover;
+        left: 0;
+        width: 888px;
+        height: 400px;
+        z-index: -1;
+    }
+
+    .World-class {
+        display: flex;
+        flex-grow: 1;
+        margin: 60px 80px;
+        height: 600px;
+    }
+
+    .World-class .img-world-class {
+        background: url(../assets/about/desktop/image-world-class-talent.jpg) no-repeat center / cover;
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .World-class .txt-world-class {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        width: 60%;
+        padding: 100px;
+        gap: 30px;
+        background-color: var(--light-grey);
+        border-radius: 0 10px 10px 0;
+    }
+
+    .World-class .txt-world-class h2 {
+        color: var(--peach);
+    }
+
+    .location-container {
+        display: flex;
+        padding: 60px 80px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .location-container .location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .location-container .location h3 {
+        text-transform: uppercase;
+    }
+
+    .location-container .location .img-canada {
+        background: url(../assets/home/desktop/bg-pattern-hero-home.svg) no-repeat center / contain;
+    }
+    .location-container .location .img-australia {
+        background: url(../assets/shared/desktop/bg-pattern-small-circle.svg) no-repeat center / contain;
+    }
+    .location-container .location .img-united-kingdom {
+        background: url(../assets/contact/desktop/bg-pattern-hero-desktop.svg) no-repeat center / contain;
+    }
+
+    .real-deal {
+        padding: 60px 80px;
+    }
+}
