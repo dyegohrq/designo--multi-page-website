@@ -655,7 +655,7 @@ body {
     }
 
     .header .hero-phone {
-        transform: translate(20%, 0%);
+        transform: translate(17%, 0%);
     }
 
     .design-container .design {
@@ -693,6 +693,10 @@ body {
 
     .lets-talk {
         margin: 0px 40px;
+    }
+
+    .lets-talk .circle-lets-talk {
+        width: 100%;
     }
 
     .lets-talk .text-lets {
