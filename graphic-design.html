@@ -5,25 +5,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pgs.css">
+  <link rel="stylesheet" href="css/app-design.css">
   
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
+  <nav class="nav">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/shared/desktop/logo-dark.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navagation">
+      <button class="burger" onclick="openMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <div class="links">
+        <a href="about.html" class="link-items">Our Company</a>
+        <a href="locations.html" class="link-items">Locations</a>
+        <a href="contact.html" class="link-items">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="circle-hero"></div>
+    <div class="txt-header">
+      <h1>Graphic design</h1>
+      <p>
+        We deliver eye-catching branding materials that are tailored to meet your business objectives.</p>
+    </div>
+  </header>
+  <main>
+      <div class="card-pg">
+        <div class="card tim-brown">
+          <div class="img img-tim-brown">
+            <img src="assets/graphic-design/desktop/image-change.jpg" alt="">
+          </div>
+          <div class="txt txt-express">
+            <h3>Tim Brown</h3>
+            <p>
+              A book cover designed for Tim Brown’s new release, ‘Change’</p>
+          </d>
+        </div>
+      </div>
 
-  Graphic design
-  We deliver eye-catching branding materials that are tailored to meet your business objectives.
+      <div class="card boxed-water">
+        <div class="img img-boxed-water">
+          <img src="assets/graphic-design/desktop/image-boxed-water.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Boxed water</h3>
+          <p>
+            A simple packaging concept made for Boxed Water</p>
+        </div>
+      </div>
 
-  Tim Brown
-  A book cover designed for Tim Brown’s new release, ‘Change’
+      <div class="card science">
+        <div class="img img-science">
+          <img src="assets/graphic-design/desktop/image-science.jpg" alt="">
+        </div>
+        <div class="txt">
+          <h3>Science!</h3>
+          <p>
+            A poster made in collaboration with the Federal Art Project</p>
+        </div>
+      </div>
+    </div>
 
-  Boxed water
-  A simple packaging concept made for Boxed Water
+    <div class="design-container">
+      <div class="right">
+        <a href="web-design.html" class="design web-design">
+          <div class="filter"></div>
+          <p>Web design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
 
-  Science!
-  A poster made in collaboration with the Federal Art Project
+        
+        <a href="app-design.html" class="design app-design">
+          <div class="filter"></div>
+          <p>App Design</p>
+          <div class="view-project">
+            <span>View projects</span>
+            <i>
+              <img src="assets/shared/desktop/icon-right-arrow.svg" alt="">
+            </i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="lets-talk">
+      <div class="circle-lets-talk"></div>
+      <div class="text-lets">
+        <h2>Let’s talk about your project</h2>
+        <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      </div>
+      <div class="button">
+        <button class="btn btn-on-dark">Get in touch</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="nav-bottom">
+      <div class="logo">
+        <a href=""><img src="assets/shared/desktop/logo-light.png" alt=""></a>
+      </div>
+      <div class="nav-items">
+        <a href="" class="nav-link">Our company</a>
+        <a href="" class="nav-link">Locations</a>
+        <a href="" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    
+    
+    <div class="footer-content">
+      <div class="address">
+        <div class="cental-office">
+          <span>Designo Central Office</span>
+          <small>3886 Wellington Street</small>
+          <small>Toronto, Ontario M9C 3J5</small>
+        </div>
+      
+        <div class="cental-office">
+          <span>Contact Us (Central Office)</span>
+          <small>P : +1 253-863-8967</small>
+          <small>M : contact@designo.co</small>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a></i>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/24690ddc1f.js" crossorigin="anonymous"></script>
+  <script src="script/js.js"></script>
+  <!-- 
+
+  
+
+  
+
+  
+
+  
 
   App Design
   View Projects
@@ -46,6 +188,6 @@
 
   Contact Us (Central Office)
   P : +1 253-863-8967
-  M : contact@designo.co
+  M : contact@designo.co -->
 </body>
 </html>
