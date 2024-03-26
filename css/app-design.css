@@ -1,8 +1,31 @@
-.card-pg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
-    padding: 60px 80px;
-    gap: 100px;
+@media screen and (max-width: 1400px) {
+    .card-pg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        padding: 60px 80px;
+        gap: 40px;
+    }
+
+    .card-pg .card {
+        width: 346px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-pg .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card-pg {
+        padding: 60px 25px;
+        gap: 90px;
+    }
+
+    .lets-talk .circle-lets-talk {
+        width: 100%;
+    }
 }
