@@ -5,44 +5,141 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pgs.css">
+  <link rel="stylesheet" href="css/app-design.css">
+  <link rel="stylesheet" href="css/aux-pgs.css">
+  <link rel="stylesheet" href="css/location.css">
+  <link rel="stylesheet" href="css/contact.css">
   
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
+  <nav class="nav">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/shared/desktop/logo-dark.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navagation">
+      <button class="burger" onclick="openMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </button>
+      <div class="links">
+        <a href="about.html" class="link-items">Our Company</a>
+        <a href="locations.html" class="link-items">Locations</a>
+        <a href="contact.html" class="link-items">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="circle-hero"></div>
+    <div class="txt-contact">
+      <h2>Contact us</h2>
+      <p>
+        Ready to take it to the next level? Let’s talk about your project or idea and find out how
+        we can help your business grow. If you are looking for unique digital experiences that’s
+        relatable to your users, drop us a line.
+      </p>
+    </div>
+    <form action="" class="form">
+      <div class="form-control">
+        <div class="form-input">
+          <input required type="text" name="name" id="name" placeholder="Name">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span>Mensagem de erro</span>
+        </div>
+        <div class="form-input">
+          <input required type="text" name="email-address" id="email-address" placeholder="Email address">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span>Mensagem de erro</span>
+        </div>
+        <div class="form-input">
+          <input required type="text" name="phone" id="phone" placeholder="Phone">
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span>Mensagem de erro</span>
+        </div>
+        
+        <div class="form-input you-mensage-input"><input type="text" name="your-message" id="your-message" placeholder="Your message"></div>
+      </div>
+      <div class="button">
+        <button id="submit-button" class="btn btn-on-dark">Submit</button>
+      </div>
+    </form>
+  </header>
+  <main>
+      <div class="location-container">
+        <div class="canadar location">
+          <div class="img-canada">
+            <img src="assets/shared/desktop/illustration-canada.svg" alt="">
+          </div>
+          <h3>Canada</h3>
+          <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
+    
+        <div class="australia location">
+          <div class="img-australia">
+            <img src="assets/shared/desktop/illustration-australia.svg" alt="">
+          </div>
+            <h3>Australia</h3>
+            <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
+        <div class="united-kingdom location">
+          <div class="img-united-kingdom">
+            <img src="assets/shared/desktop/illustration-united-kingdom.svg" alt="">
+          </div>
+            <h3>United Kingdom</h3>
+            <a href=""><button class="btn btn-on-light">See location</button></a>
+        </div>
+      </div>
+  </main>
 
-  Contact us
-  Ready to take it to the next level? Let’s talk about your project or idea and find out how 
-  we can help your business grow. If you are looking for unique digital experiences that’s 
-  relatable to your users, drop us a line.
+  <footer class="footer">
+    <nav class="nav-bottom">
+      <div class="logo">
+        <a href=""><img src="assets/shared/desktop/logo-light.png" alt=""></a>
+      </div>
+      <div class="nav-items">
+        <a href="" class="nav-link">Our company</a>
+        <a href="" class="nav-link">Locations</a>
+        <a href="" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    
+    
+    <div class="footer-content">
+      <div class="address">
+        <div class="cental-office">
+          <span>Designo Central Office</span>
+          <small>3886 Wellington Street</small>
+          <small>Toronto, Ontario M9C 3J5</small>
+        </div>
+      
+        <div class="cental-office">
+          <span>Contact Us (Central Office)</span>
+          <small>P : +1 253-863-8967</small>
+          <small>M : contact@designo.co</small>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a></i>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
 
-  Name
-  Email address
-  Phone
-  Your message
-  Submit
-
-  Canada
-  See location
-
-  Australia
-  See location
-
-  United Kingdom
-  See location
-
-  Our company
-  Locations
-  Contact
-
-  Designo Central Office
-  3886 Wellington Street
-  Toronto, Ontario M9C 3J5
-
-  Contact Us (Central Office)
-  P : +1 253-863-8967
-  M : contact@designo.co
+  <script src="https://kit.fontawesome.com/24690ddc1f.js" crossorigin="anonymous"></script>
+  <script src="script/js.js"></script>
 </body>
 </html>

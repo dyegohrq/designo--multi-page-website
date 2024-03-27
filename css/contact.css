@@ -1,0 +1,120 @@
+:root {
+    --peach: #e7816b;
+    --black: #1d1c1e;
+    --white: #fff;
+    --light-peach: #ffad9b;
+    --dark-grey: #333136;
+    --light-grey: #f1f3f5;
+
+    --font: "Jost", sans-serif;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header .circle-hero {
+    z-index: -1;
+    background: url(../assets/contact/desktop/bg-pattern-hero-desktop.svg) no-repeat center left / cover;
+    left: 0;
+    width: 30%;
+}
+
+.header .txt-contact {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    text-align: left;
+    gap: 20px;
+    color: var(--white);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 30%;
+}
+
+.form .form-control {
+    width: 100%;
+}
+
+.form .form-control .form-input  {
+    position: relative;
+}
+
+.form .form-control .form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.form .form-control .form-input input:not(:last-child):focus,
+.form .form-control .form-input input:not(:last-child):valid {
+    border-bottom: 2px solid var(--white);
+}
+
+.form .form-control .form-input input:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+.form .form-control .form-input input:last-child {
+    padding-bottom: 60px;
+}
+
+.form .form-control .form-input input::placeholder {
+    color: var(--light-grey);
+}
+
+.form .form-control .form-input i {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.form .form-control .form-input i.fa-circle-check {
+    color: green;
+    visibility: hidden;
+}
+
+.form .form-control .success i.fa-circle-check {
+    visibility: visible;
+}
+
+.form .form-control .form-input i.fa-circle-exclamation {
+    color: var(--white);
+    visibility: hidden;
+}
+
+.form .form-control .error i.fa-circle-exclamation {
+    visibility: visible;
+}
+
+.form .form-control .form-input span {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    font-style: italic;
+    color: var(--light-grey);
+    font-family: var(--font);
+    font-weight: 400;
+    letter-spacing: 1px;
+    visibility: hidden;
+}
+
+.form .form-control .error span{
+    visibility: visible;
+}
