@@ -221,7 +221,7 @@
     }
 
     .about-us .img-about-hero {
-        background: url(../assets/about/mobile/image-about-hero.jpg);
+        background: url(../assets/about/mobile/image-about-hero.jpg) no-repeat center / cover;
         border-radius: 0;
     }
 
