@@ -118,3 +118,59 @@
 .form .form-control .error span{
     visibility: visible;
 }
+
+.footer {
+    padding: 60px 80px;
+}
+
+@media screen and (max-width: 80em){
+    .header .circle-hero {
+        width: 50%;
+    }
+
+    .header .txt-contact {
+        width: 47%;
+    }
+
+    .form .form-control .error span {
+        font-size: .8em;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 52.125em) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 3.125em;
+        gap: 2em;
+    }
+
+    .header .circle-hero {
+        width: 90%;
+        height: 100%;
+    }
+
+    .header .txt-contact {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 31.25em) {
+    .header {
+        gap: 4em;
+    }
+
+    .header .circle-hero {
+        background: url(../assets/contact/mobile/bg-pattern-hero-contact-mobile.svg)no-repeat center left / cover;
+        width: 100%;
+    }
+
+    .header .txt-contact {
+        text-align: center;
+    }
+}
